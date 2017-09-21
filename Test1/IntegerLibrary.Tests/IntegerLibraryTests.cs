@@ -59,5 +59,29 @@ namespace IntegerLibrary.Tests
             bool actual = IsSimpleNumber(number);
 
         }
+
+        [TestMethod]//атрибуты
+        public void IsExpOfTwo_234_isNotExp_false()
+        {
+            //Arrange
+            int value = 234;
+            bool expected = false;
+            //Act
+            bool actual = IsExpOfTwo(value);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]//атрибуты
+        public void IsExpOfTwo_128_isExp_true()
+        {
+            //Arrange
+            int value = 128;
+            bool expected = true;
+            //Act
+            bool actual = IsExpOfTwo(value);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

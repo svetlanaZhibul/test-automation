@@ -22,7 +22,7 @@ namespace IntegerLibrary
             return true;
         }
 
-        public bool IsExpOfTwo(int value)
+        public static bool IsExpOfTwo(int value)
         {
             if (value <= 0)
                 return false;
