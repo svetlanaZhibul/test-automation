@@ -45,5 +45,12 @@ namespace IntegerLibrary
             }
             return factorial;
         }
+
+        public static bool IsMultipleOf3(int number)
+        {
+            if (number % 3 == 0)
+                return true;
+            else return false;
+        }
     }
 }

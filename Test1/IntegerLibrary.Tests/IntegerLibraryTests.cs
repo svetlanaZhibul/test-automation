@@ -65,6 +65,30 @@ namespace IntegerLibrary.Tests
 
         }
 
+        [TestMethod]
+        public void IsMultipleOf3_123_mult_by_3_true()
+        {
+            //Arrange
+            int number = 123;
+            bool expected = true;
+            //Act
+            bool actual = IntegerExtention.IsMultipleOf3(number);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void IsMultipleOf3_149_mult_by_3_false()
+        {
+            //Arrange
+            int number = 149;
+            bool expected = false;
+            //Act
+            bool actual = IntegerExtention.IsMultipleOf3(number);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
         [TestMethod]//атрибуты
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void IsSimpleNumber_Minus30_isSimple_Throw_OutOfRangeExeption()
