@@ -1,0 +1,4 @@
+c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary\bin\Debug\IntegerLibrary.dll
+c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary\bin\Debug\IntegerLibrary.pdb
+c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary\obj\Debug\IntegerLibrary.dll
+c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary\obj\Debug\IntegerLibrary.pdb
