@@ -6,3 +6,4 @@ C:\5sem\test-automation\Test1\IntegerLibrary\bin\Debug\IntegerLibrary.dll
 C:\5sem\test-automation\Test1\IntegerLibrary\bin\Debug\IntegerLibrary.pdb
 C:\5sem\test-automation\Test1\IntegerLibrary\obj\Debug\IntegerLibrary.dll
 C:\5sem\test-automation\Test1\IntegerLibrary\obj\Debug\IntegerLibrary.pdb
+C:\5sem\test-automation\Test1\IntegerLibrary\obj\Debug\IntegerLibrary.csprojResolveAssemblyReference.cache
