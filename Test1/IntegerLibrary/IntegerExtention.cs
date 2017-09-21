@@ -21,5 +21,19 @@ namespace IntegerLibrary
             }
             return true;
         }
+
+        public bool IsExpOfTwo(int value)
+        {
+            if (value <= 0)
+                return false;
+            while ((value % 2) == 0)
+            {
+
+                if ((value /= 2) == 1)
+                    return true;
+            }
+            return false;
+
+        }
     }
 }
