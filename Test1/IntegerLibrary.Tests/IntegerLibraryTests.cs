@@ -60,7 +60,9 @@ namespace IntegerLibrary.Tests
 
         }
 
-        [TestMethod]//атрибуты
+        /******** Tests for IsExpOfTwo method ********/
+
+        [TestMethod]
         public void IsExpOfTwo_234_isNotExp_false()
         {
             //Arrange
@@ -72,7 +74,7 @@ namespace IntegerLibrary.Tests
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod]//атрибуты
+        [TestMethod]
         public void IsExpOfTwo_128_isExp_true()
         {
             //Arrange
@@ -82,6 +84,15 @@ namespace IntegerLibrary.Tests
             bool actual = IsExpOfTwo(value);
             //Assert
             Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void IsExpOfTwo_Minus3_isExp_Throw_OutOfRangeExeption()
+        {
+            int value = -3;
+            bool actual = IsExpOfTwo(value);
+
         }
     }
 }
