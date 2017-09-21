@@ -37,6 +37,19 @@ namespace IntegerLibrary.Tests
 
 
         }
+        [TestMethod]
+        public void IsFactorial_4_is_24_true()
+        {
+            //Arrange
+            int number = 4;
+            bool expected = true;
+            //Act
+            bool actual = (IntegerExtention.Factorial(number) == 24);
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+
+        }
 
         [TestMethod]//атрибуты
         [ExpectedException(typeof(ArgumentOutOfRangeException))]

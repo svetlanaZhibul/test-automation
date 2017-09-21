@@ -6,3 +6,11 @@ c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary.Tests\bin
 c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary.Tests\obj\Debug\IntegerLibrary.Tests.csprojResolveAssemblyReference.cache
 c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary.Tests\obj\Debug\IntegerLibrary.Tests.dll
 c:\users\hp\documents\visual studio 2015\Projects\Test1\IntegerLibrary.Tests\obj\Debug\IntegerLibrary.Tests.pdb
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\bin\Debug\IntegerLibrary.Tests.dll
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\bin\Debug\IntegerLibrary.Tests.pdb
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\bin\Debug\IntegerLibrary.dll
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\bin\Debug\IntegerLibrary.pdb
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\obj\Debug\IntegerLibrary.Tests.csprojResolveAssemblyReference.cache
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\obj\Debug\IntegerLibrary.Tests.dll
+C:\5sem\test-automation\Test1\IntegerLibrary.Tests\obj\Debug\IntegerLibrary.Tests.pdb
