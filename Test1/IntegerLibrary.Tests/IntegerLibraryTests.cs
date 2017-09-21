@@ -51,6 +51,20 @@ namespace IntegerLibrary.Tests
 
         }
 
+        [TestMethod]
+        public void IsFactorial_3_is_5_false()
+        {
+            //Arrange
+            int number = 3;
+            bool expected = false;
+            //Act
+            bool actual = (IntegerExtention.Factorial(number) == 5);
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+
+        }
+
         [TestMethod]//атрибуты
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void IsSimpleNumber_Minus30_isSimple_Throw_OutOfRangeExeption()
