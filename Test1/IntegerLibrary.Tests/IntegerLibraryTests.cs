@@ -119,5 +119,28 @@ namespace IntegerLibrary.Tests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void IsExpOfInteger_48_isExpOf_2_false()
+        {
+            //Arrange
+            int basis = 2;
+            int value = 48;
+            bool expected = false;
+            //Act
+            bool actual = IsExpOfInteger(basis, value);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void IsExpOfInteger_0_Basis_isExpOf_1_Throw_OutOfRangeExeption()
+        {
+            int basis = 0;
+            int value = 1;
+
+            bool actual = IsExpOfInteger(basis, value);
+        }
     }
 }
