@@ -26,9 +26,10 @@ namespace IntegerLibrary
         {
             if (value <= 0)
                 throw new ArgumentOutOfRangeException(nameof(value));
+            if (value == 1)
+                return true;
             while ((value % 2) == 0)
             {
-
                 if ((value /= 2) == 1)
                     return true;
             }
