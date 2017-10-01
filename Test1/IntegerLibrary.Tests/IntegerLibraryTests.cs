@@ -106,5 +106,18 @@ namespace IntegerLibrary.Tests
             bool actual = IsExpOfTwo(value);
 
         }
+
+        [TestMethod]
+        public void IsExpOfInteger_125_isExpOf_5_true()
+        {
+            //Arrange
+            int basis = 5;
+            int value = 125;
+            bool expected = true;
+            //Act
+            bool actual = IsExpOfInteger(basis, value);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
