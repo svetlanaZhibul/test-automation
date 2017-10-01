@@ -125,6 +125,30 @@ namespace IntegerLibrary.Tests
         }
 
         [TestMethod]
+        public void IsExpOfTwo_256_isExp_true()
+        {
+            //Arrange
+            int value = 256;
+            bool expected = true;
+            //Act
+            bool actual = IsExpOfTwo(value);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void IsExpOfTwo_48_isExp_false()
+        {
+            //Arrange
+            int value = 48;
+            bool expected = false;
+            //Act
+            bool actual = IsExpOfTwo(value);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
         public void IsExpOfTwo_2048_isExp_true()
         {
             //Arrange
