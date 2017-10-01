@@ -37,6 +37,23 @@ namespace IntegerLibrary
 
         }
 
+        public static bool IsExpOfInteger(int basis, int value)
+        {
+            if (basis <= 0)
+                throw new ArgumentOutOfRangeException(nameof(basis));
+            if (value <= 0)
+                throw new ArgumentOutOfRangeException(nameof(value));
+            if (value == 1)
+                return true;
+            while ((value % basis) == 0)
+            {
+                if ((value /= basis) == 1)
+                    return true;
+            }
+            return false;
+
+        }
+
         public static int Factorial(int n)
         {        
             int factorial = 1;              
