@@ -25,15 +25,15 @@ namespace IntegerLibrary
         public static bool IsExpOfTwo(int value)
         {
             if (value <= 0)
-                throw new ArgumentOutOfRangeException(nameof(value));
+            { throw new ArgumentOutOfRangeException(nameof(value)); }
             if (value == 1)
-                return true;
+            { return true; }
             while ((value % 2) == 0)
             {
                 if ((value /= 2) == 1)
-                    return true;
+                { return true; }
             }
-            return false;
+            return { false; }
 
         }
 
