@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Реализовать функцию NextBiggerNumber,
+ *  которая принимает положительное целое число и возвращает ближайшее наибольшее целое,
+ *   состоящее из цифр исходного числа и - 1,
+ *  если такого числа не существует.
+*/
 namespace ConsoleApplication1
 {
     public static class Program
