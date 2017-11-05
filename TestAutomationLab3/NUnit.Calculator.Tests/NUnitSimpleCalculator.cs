@@ -16,21 +16,25 @@ namespace NUnit.Calculator.Tests
         [TestCase(" 5 + - 5", ExpectedResult = "0")]
         [TestCase(" 10 + 1.5", ExpectedResult = "11,5")]
         [TestCase(" 5.5 + 2.5", ExpectedResult = "8")]
+        [TestCase(" 136832 + 23459", ExpectedResult = "160291")]
 
         [TestCase(" -6 -- 6", ExpectedResult = "0")]
         [TestCase(" -6 - 6", ExpectedResult = "-12")]
         [TestCase("5 - 4.5", ExpectedResult = "0,5")]
+        [TestCase("512345 - 2345", ExpectedResult = "510000")]
         [TestCase("1.6 - 3.5", ExpectedResult = "-1,9")]
 
         [TestCase(" 10 / -10", ExpectedResult = "-1")]
         [TestCase("-15 / 4", ExpectedResult = "-3,75")]
         [TestCase("-15 / - 3", ExpectedResult = "5")]
         [TestCase(" 3 / 2 ", ExpectedResult = "1,5")]
-
+        [TestCase(" 103.04 / 7 ", ExpectedResult = "14,72")]
+        
         [TestCase("-5.0 * - 5", ExpectedResult = "25")]
         [TestCase("5.5 *  - 2", ExpectedResult = "-11")]
         [TestCase("2.3 * 4.1 ", ExpectedResult = "9,43")]
         [TestCase("-17 * 1.23 ", ExpectedResult = "-20,91")]
+        [TestCase("-3.85 * - 4.4 ", ExpectedResult = "16,94")]
 
         [TestCase("5 - ww", ExpectedResult = "Wrong kind of input. Please, try again.")]
         [TestCase("2.3 * 4.1 + 9 ", ExpectedResult = "Wrong kind of input. Please, try again.")]
