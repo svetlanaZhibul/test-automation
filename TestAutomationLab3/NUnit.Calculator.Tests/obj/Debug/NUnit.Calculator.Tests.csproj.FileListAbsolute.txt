@@ -1,0 +1,9 @@
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\bin\Debug\NUnit.Calculator.Tests.dll
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\bin\Debug\NUnit.Calculator.Tests.pdb
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\bin\Debug\nunit.framework.dll
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\bin\Debug\nunit.framework.xml
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\obj\Debug\NUnit.Calculator.Tests.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\obj\Debug\NUnit.Calculator.Tests.dll
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\obj\Debug\NUnit.Calculator.Tests.pdb
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\bin\Debug\Calculator.dll
+D:\C#Projects\epam-course\TestAutomationLab3\NUnit.Calculator.Tests\bin\Debug\Calculator.pdb
