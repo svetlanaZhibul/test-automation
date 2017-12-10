@@ -129,5 +129,17 @@ namespace Selenium.Chromedriver.Pages
         {
             return PageFactory.InitElements<LoginPage>(driver);
         }
+
+        public SchedulePage FindSchedule(string from, string to, string when, string h_time, string m_time)
+        {
+            FromField.SendKeys(from);
+            ToField.SendKeys(to);
+            DateField.SendKeys(when);
+            HoursField.SendKeys(h_time);
+            MinutesField.SendKeys(m_time);
+            GoButton.Click();
+
+            return PageFactory.InitElements<SchedulePage>(driver);
+        }
     }
 }

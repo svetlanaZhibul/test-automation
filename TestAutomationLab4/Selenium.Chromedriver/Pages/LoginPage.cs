@@ -48,6 +48,14 @@ namespace Selenium.Chromedriver.Pages
             return PageFactory.InitElements<HomePage>(driver);
         }
 
+        public LoginPage FailLogin(string login, string password)
+        {
+            EnterLogin(login);
+            EnterPassword(password);
+            ClickLoginButton();
+            return PageFactory.InitElements<LoginPage>(driver);
+        }
+
         public LoginPage Open()
         {
             driver.Navigate().GoToUrl(URL);

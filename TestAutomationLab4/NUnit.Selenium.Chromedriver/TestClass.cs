@@ -46,15 +46,34 @@ namespace NUnit.Selenium.Chromedriver
         }
 
         [Test]
-        public void FailLogin()
+        public void SearchForTrain()
         {
+            string from = "London";
+            string to = "Glasgow Central";
+            string when = "13/12/17";
+            string h_time = "20";
+            string m_time = "00";
+
             var main = new MainPage(driver);
-            var home = main.Open().GoToLogin().Open().Login(FakeEmail, FakePswd).Open();
+            var shedule = main.Open().FindSchedule(from, to, when, h_time, m_time);
+
+            driver.Navigate().GoToUrl(wedTrainUrl);
 
             Driver.SetWaitTime(60);
 
-            Assert.AreEqual(driver.Url, home.Url);
+            Assert.AreEqual(driver.Url, wedTrainUrl);
         }
+
+        //[Test]
+        //public void FailLogin()
+        //{
+        //    var main = new MainPage(driver);
+        //    var home = main.Open().GoToLogin().Open().FailLogin(FakeEmail, FakePswd).Open();
+
+        //    Driver.SetWaitTime(60);
+
+        //    Assert.AreNotEqual(driver.Url, home.Url);
+        //}
 
         [Test]
         public void Logout()

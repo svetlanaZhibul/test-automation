@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
 
 namespace Selenium.Chromedriver.Pages
 {
@@ -11,6 +12,9 @@ namespace Selenium.Chromedriver.Pages
     {
         public SchedulePage(IWebDriver driver) : base(driver) { }
 
+        [FindsBy(How = How.Id, Using = "ctf-results")]
+        public IWebElement SearchResultsDiv;
 
+        
     }
 }
