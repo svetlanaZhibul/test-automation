@@ -1,0 +1,8 @@
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\Selenium.Chromedriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\Selenium.Chromedriver.pdb
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\WebDriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\WebDriver.Support.dll
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\WebDriver.xml
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\WebDriver.Support.xml
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\obj\Debug\Selenium.Chromedriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\obj\Debug\Selenium.Chromedriver.pdb

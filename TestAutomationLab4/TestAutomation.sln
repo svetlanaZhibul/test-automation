@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitChromeDriver", "NUnit.ChromeDriver\NUnitChromeDriver.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.Chromedriver", "Selenium.Chromedriver\Selenium.Chromedriver.csproj", "{E10B6DE6-A61F-4D62-A4F6-FF0F00D85A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Selenium.Chromedriver", "NUnit.Selenium.Chromedriver\NUnit.Selenium.Chromedriver.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E10B6DE6-A61F-4D62-A4F6-FF0F00D85A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10B6DE6-A61F-4D62-A4F6-FF0F00D85A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10B6DE6-A61F-4D62-A4F6-FF0F00D85A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10B6DE6-A61F-4D62-A4F6-FF0F00D85A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU

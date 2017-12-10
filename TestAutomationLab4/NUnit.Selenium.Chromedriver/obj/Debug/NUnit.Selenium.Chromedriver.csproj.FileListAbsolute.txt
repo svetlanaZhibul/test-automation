@@ -1,0 +1,13 @@
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\obj\Debug\NUnit.Selenium.Chromedriver.csprojResolveAssemblyReference.cache
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\NUnit.Selenium.Chromedriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\NUnit.Selenium.Chromedriver.pdb
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\nunit.framework.dll
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\Selenium.Chromedriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\WebDriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\WebDriver.Support.dll
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\Selenium.Chromedriver.pdb
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\nunit.framework.xml
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\WebDriver.xml
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\bin\Debug\WebDriver.Support.xml
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\obj\Debug\NUnit.Selenium.Chromedriver.dll
+D:\C#Projects\test-automation\TestAutomationLab4\NUnit.Selenium.Chromedriver\obj\Debug\NUnit.Selenium.Chromedriver.pdb
