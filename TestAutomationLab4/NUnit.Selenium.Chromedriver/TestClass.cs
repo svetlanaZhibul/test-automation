@@ -15,13 +15,9 @@ namespace NUnit.Selenium.Chromedriver
     {
         private IWebDriver driver;
         private static string wedTrainUrl = "https://ojp.nationalrail.co.uk/service/timesandfares/London/GLC/131217/2000/dep";
-        private static string explorerPageUrl = "https://www.tumblr.com/explore/trending";
-        private static string postsByTagUrl = "https://www.tumblr.com/search/girl";
-        private static string followWithoutRegisterUrl = "https://www.tumblr.com/register?redirect_to=/explore";
-        private static string HomePageUrl = "https://ojp.nationalrail.co.uk/personal/home/search";
-        private static string dashboardUrl = "https://www.tumblr.com/dashboard";
 
-        private static string TruePswd = "testit";
+
+        private static string TruePswd = "SomeCorrectPswd";
         private static string TrueEmail = "3hibul@mail.ru";
         private static string FakeEmail = "https://www.tumblr.com/login";
         private static string FakePswd = "https://www.tumblr.com/dashboard";
@@ -37,45 +33,7 @@ namespace NUnit.Selenium.Chromedriver
         {
             Driver.Close();
         }
-
-        //[Test]
-        //public void AddPost()
-        //{
-        //    var enterPage = new EnterPage(driver);
-        //    enterPage.Open().AddPost();
-
-        //    Driver.SetWaitTime(60);
-
-        //    Assert.AreEqual(driver.Url, dashboardUrl);
-        //}
-
-        //[Test]
-        //public void OpenMainPage()
-        //{
-        //    var mainPage = new MainPage(driver);
-        //    mainPage.Open();
-
-        //    Assert.AreEqual(driver.Url, mainPageUrl);
-        //}
-
-        //[Test]
-        //public void OpenExplorerPage()
-        //{
-        //    var explorerPage = new ExplorerPage(driver);
-        //    explorerPage.Open();
-
-        //    Assert.AreEqual(driver.Url, explorerPageUrl);
-        //}
-
-        //[Test]
-        //public void OpenEnterPage()
-        //{
-        //    var enterPage = new EnterPage(driver);
-        //    enterPage.Open();
-
-        //    Assert.AreEqual(driver.Url, enterPageUrl);
-        //}
-
+        
         [Test]
         public void Login()
         {
@@ -95,7 +53,7 @@ namespace NUnit.Selenium.Chromedriver
 
             Driver.SetWaitTime(60);
 
-            Assert.IsNull(home.LogoutButton);
+            Assert.AreEqual(driver.Url, home.Url);
         }
 
         [Test]
@@ -109,24 +67,6 @@ namespace NUnit.Selenium.Chromedriver
 
             Assert.AreEqual(driver.Url, main.Url);
         }
-
-        //[Test]
-        //public void FindPostByTag()
-        //{
-        //    var mainPage = new MainPage(driver);
-        //    mainPage.Open().FindPostsByTag();
-        //    Driver.SetWaitTime(30);
-
-        //    Assert.AreEqual(driver.Url, postsByTagUrl);
-        //}
-
-        //[Test]
-        //public void Follow()
-        //{
-        //    var explorerPage = new ExplorerPage(driver);
-        //    explorerPage.Open().Follow();
-
-        //    Assert.AreEqual(driver.Url, followWithoutRegisterUrl);
-        //}
+        
     }
 }
