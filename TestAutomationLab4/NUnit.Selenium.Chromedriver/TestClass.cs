@@ -19,8 +19,8 @@ namespace NUnit.Selenium.Chromedriver
 
         private static string TruePswd = "SomeCorrectPswd";
         private static string TrueEmail = "3hibul@mail.ru";
-        private static string FakeEmail = "https://www.tumblr.com/login";
-        private static string FakePswd = "https://www.tumblr.com/dashboard";
+        private static string FakeEmail = "some@fake";
+        private static string FakePswd = "pswdddd";
 
         [SetUp]
         public void Init()
