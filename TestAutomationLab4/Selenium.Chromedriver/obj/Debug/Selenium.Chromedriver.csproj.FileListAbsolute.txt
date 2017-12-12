@@ -6,3 +6,4 @@ D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug
 D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\bin\Debug\WebDriver.Support.xml
 D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\obj\Debug\Selenium.Chromedriver.dll
 D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\obj\Debug\Selenium.Chromedriver.pdb
+D:\C#Projects\test-automation\TestAutomationLab4\Selenium.Chromedriver\obj\Debug\Selenium.Chromedriver.csprojResolveAssemblyReference.cache

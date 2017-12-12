@@ -17,7 +17,7 @@ namespace NUnit.Selenium.Chromedriver
         private static string wedTrainUrl = "https://ojp.nationalrail.co.uk/service/timesandfares/London/GLC/131217/2000/dep";
 
 
-        private static string TruePswd = "SomeCorrectPswd";
+        private static string TruePswd = "testit";
         private static string TrueEmail = "3hibul@mail.ru";
         private static string FakeEmail = "some@fake";
         private static string FakePswd = "pswdddd";
@@ -33,7 +33,7 @@ namespace NUnit.Selenium.Chromedriver
         {
             Driver.Close();
         }
-        
+
         [Test]
         public void Login()
         {
@@ -64,16 +64,16 @@ namespace NUnit.Selenium.Chromedriver
             Assert.AreEqual(driver.Url, wedTrainUrl);
         }
 
-        //[Test]
-        //public void FailLogin()
-        //{
-        //    var main = new MainPage(driver);
-        //    var home = main.Open().GoToLogin().Open().FailLogin(FakeEmail, FakePswd).Open();
+        [Test]
+        public void FailLogin()
+        {
+            var main = new MainPage(driver);
+            var login = main.Open().GoToLogin().Open().FailLogin(FakeEmail, FakePswd);
 
-        //    Driver.SetWaitTime(60);
+            Driver.SetWaitTime(60);
 
-        //    Assert.AreNotEqual(driver.Url, home.Url);
-        //}
+            Assert.AreEqual(login.ErrorMessage.Text, "This email address or password has not been recognised. Please re-enter.");
+        }
 
         [Test]
         public void Logout()
@@ -86,6 +86,20 @@ namespace NUnit.Selenium.Chromedriver
 
             Assert.AreEqual(driver.Url, main.Url);
         }
-        
+
+        [Test]
+        public void NewsSearch()
+        {
+            string query = "london";
+            NewsSearchPage searchPage = new NewsSearchPage(driver);
+            driver.Navigate().GoToUrl(searchPage.Url);
+
+            Driver.SetWaitTime(60);
+
+            searchPage.DoSearch(query);
+            driver.Navigate().GoToUrl(searchPage.Url + searchPage.UrlQuery + query);
+
+            Assert.IsTrue(searchPage.SearchResultText.Text.Contains("We found"));
+        }
     }
 }

@@ -35,6 +35,9 @@ namespace Selenium.Chromedriver.Pages
             PasswordField.SendKeys(password);
         }
 
+        [FindsBy(How = How.ClassName, Using = "error-message")]
+        public IWebElement ErrorMessage;
+
         public void ClickLoginButton()
         {
             LoginButton.Click();
