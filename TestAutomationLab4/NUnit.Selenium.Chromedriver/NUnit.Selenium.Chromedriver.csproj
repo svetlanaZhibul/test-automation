@@ -55,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScheduleTest.cs" />
     <Compile Include="SearchPageTest.cs" />
+    <Compile Include="StationsServicesPagesTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
