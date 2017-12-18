@@ -16,7 +16,8 @@ namespace Selenium.Chromedriver
         {
             if (driver == null)
             {
-                driver = new ChromeDriver(@"D:\programs\Selenium");
+                //driver is taken from path environment variable
+                driver = new ChromeDriver();    
                 driver.Manage().Window.Maximize();
             }
 
